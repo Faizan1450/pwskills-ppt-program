@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80vw;
+  height: 100%;
+  margin-inline: auto;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  height: 200px;
+  margin-block: 30px;
+}
+
+.nav-bar .left-section {
+  width: 35%;
+  background-color: #63a0ce;
+}
+
+.nav-bar .right-section {
+  width: 65%;
+  background-color: #ababa9;
+}
+
+.hero-section {
+    background-color: #797977;
+    width: 100%;
+    height: 350px;
+    margin-block: 30px;
+}
+
+.card-section {
+    margin-block: 30px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    background-color: #b1d6e8;
+    width: 33%;
+    height: 200px;
+}
+
+.footer-section {
+    margin-block: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #ababa9;
+}
